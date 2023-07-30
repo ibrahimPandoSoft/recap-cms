@@ -31,7 +31,7 @@ jobs:
           restore-keys: node-${{ matrix.node }}-
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm i
 
       - name: Test
         run: npm t
